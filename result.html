@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Result | Deepfake Detector</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Chart.js MUST -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<link rel="stylesheet" href="result.css">
+</head>
+
+<body>
+
+<div class="result-container">
+  <h2>Detection Result</h2>
+  <p>Frame-wise AI probability</p>
+
+  <!-- THIS ID MUST MATCH JS -->
+  <canvas id="aiGraph"></canvas>
+
+  <h3>Overall AI Content: <span id="aiPercent">--</span>%</h3>
+
+  <a href="upload.html" class="btn">Scan Another File</a>
+   <a href="index.html" class="btn outline">Back to Home</a>
+</div>
+
+<!-- JS MUST BE AFTER HTML -->
+<script src="result.js"></script>
+
+</body>
+</html>
+
