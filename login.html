@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Login</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+
+<div class="auth-card">
+  <h2>Login</h2>
+  <p>Existing user login</p>
+
+  <input type="email" placeholder="Email">
+  <input type="password" placeholder="Password">
+
+  <button onclick="goUpload()">Login</button>
+
+<p class="switch">
+  New user? <a href="signup.html">Create an account</a>
+</p>
+
+<a href="index.html">← Back to Home</a>
+
+<script>
+function goUpload(){
+  // After login, redirect to upload page
+  window.location.href = "upload.html";
+}
+</script>
+</div>
+
+</body>
+</html>
+
+
